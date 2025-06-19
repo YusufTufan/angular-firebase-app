@@ -1,28 +1,99 @@
-# Intprojem
-sistem analiz 1 final ödevi
+# 🔥 Angular + Firebase Starter
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.2.
+A simple Angular application integrated with Firebase services via **AngularFire**.
 
-## Development server
+## 🧩 Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- 🔐 **Authentication** using Firebase (Email/Password, Google Sign-In)
+- 🗄️ **Cloud Firestore** for secure, scalable database operations
+- ☁️ **Cloud Storage** for uploading and serving user-generated files
+- 🌐 **Firebase Hosting** deployment (optional)
+- 🔔 **Cloud Messaging** and **Performance Monitoring** support
 
-## Code scaffolding
+## 🚀 Requirements
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Node.js (v14+ recommended)
+- Angular CLI (`npm install -g @angular/cli`)
+- Firebase CLI (`npm install -g firebase-tools`)
 
-## Build
+## 📥 Installation & Setup
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clone the repo  
+   ```bash
+   git clone https://github.com/YusufTufan/angular_firebase.git
+   cd angular_firebase
+   ```
 
-## Running unit tests
+2. Install dependencies  
+   ```bash
+   npm install
+   ```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+3. Add Firebase to your Angular project  
+   ```bash
+   ng add @angular/fire
+   ```
+   - Choose Authentication, Firestore, Storage, Hosting
+   - Insert your Firebase config into `environment.ts`
 
-## Running end-to-end tests
+4. Log in to Firebase CLI and link your project  
+   ```bash
+   firebase login
+   firebase use --add
+   ```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+5. (Optional) Deploy to Firebase Hosting:
+   ```bash
+   firebase init hosting
+   firebase deploy
+   ```
 
-## Further help
+## ▶️ Development
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+ng serve
+```
+
+Runs the app at `http://localhost:4200`.
+
+---
+
+# 🧠 Angular + Firebase Başlangıç Projesi
+
+Basit bir Angular uygulaması olup, **AngularFire** ile Firebase servislerine entegredir.
+
+## 🧩 Özellikler
+
+- 🔐 Firebase kimlik doğrulama (E‑posta/Şifre, Google ile Giriş)
+- 🗄️ Cloud Firestore veritabanı
+- ☁️ Cloud Storage dosya yükleme ve indirme
+- 🌐 Firebase Hosting deploy
+- 🔔 Cloud Messaging ve Performans İzleme desteği
+
+## 🚀 Gereksinimler
+
+- Node.js (v14+ tavsiye edilir)
+- Angular CLI (`npm install -g @angular/cli`)
+- Firebase CLI (`npm install -g firebase-tools`)
+
+## 📥 Kurulum & Yapılandırma
+
+1. Repoyu klonla  
+2. `npm install` ile bağımlılıkları yükle  
+3. `ng add @angular/fire` komutuyla Firebase entegrasyonu  
+4. `firebase login` ve `firebase use --add` ile projeyi bağla  
+5. (Opsiyonel) `firebase init hosting` ve `firebase deploy`
+
+## ▶️ Geliştirme
+
+```bash
+ng serve
+```
+
+`http://localhost:4200` adresinde açılır.
+
+---
+
+## 👨‍💻 Developer
+
+**Yusuf Tufan**  
