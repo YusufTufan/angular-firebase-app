@@ -38,12 +38,6 @@ A simple Angular application integrated with Firebase services via **AngularFire
    ng serve
    ```
 
-## ▶️ Development
-
-```bash
-ng serve
-```
-
 Navigate to `http://localhost:4200`.
 
 📄 License
